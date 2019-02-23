@@ -23,10 +23,11 @@ docker run dimdm/icetools icepack -h
 | [Verilator](https://www.veripool.org/wiki/verilator) | Simulation    | [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0) |
 | [Arachne-pnr](https://github.com/cseed/arachne-pnr)  | Place & Route | [MIT](https://opensource.org/licenses/MIT)           |
 | [IceStorm](http://www.clifford.at/icestorm/)         | Bitstream     | [ISC](https://opensource.org/licenses/ISC)           |
+| [NextPNR](https://github.com/YosysHQ/nextpnr)        | Place & Route | [ISC](https://opensource.org/licenses/ISC)           |
 
 ## Supported FPGAs
 
-iCE40 LP/HX 1K/~~4K~~/8K
+iCE40 LP/HX 1K/4K/8K
 
 ## Supported Devkits
 
