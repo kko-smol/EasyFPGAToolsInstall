@@ -26,9 +26,9 @@ echo "└─────────────┘"
 $DIR/arachne-pnr.sh
 
 echo "┌───────────┐"
-echo "│ NextPNR   │"
+echo "│ nextpnr   │"
 echo "└───────────┘"
-$DIR/NextPNR.sh
+$DIR/nextpnr.sh
 
 echo "┌───────┐"
 echo "│ yosys │"
