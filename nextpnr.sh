@@ -7,21 +7,21 @@ popd > /dev/null
 UNAME_STR=`uname`
 
 if [ ! -d $DIR/NextPNR ]; then
-	echo "Checking out NextPNR..."
-	git clone https://github.com/YosysHQ/nextpnr.git $DIR/NextPNR
+	echo "Checking out nextpnr..."
+	git clone https://github.com/YosysHQ/nextpnr.git $DIR/nextpnr
 else
-	cd $DIR/NextPNR
-	echo "Updating NextPNR..."
+	cd $DIR/nextpnr
+	echo "Updating nextpnr..."
 	git pull origin master || exit 1
 fi
 
-cd $DIR/NextPNR
+cd $DIR/nextpnr
 
-echo "Building NextPNR..."
+echo "Building nextpnr..."
 cmake -DARCH=ice40 .
 make -j$(nproc)
 
-echo "Installing NextPNR..."
+echo "Installing nextpnr..."
 if [[ "$UNAME_STR" == "Darwin" ]]; then
 	make install
 fi
