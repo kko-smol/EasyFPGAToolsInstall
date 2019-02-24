@@ -11,7 +11,7 @@ if [[ "$UNAME_STR" == "Darwin" ]] && hash brew 2>/dev/null; then
 	brew update && brew install python3 libftdi0 libffi autoconf bison gawk gnu-sed graphviz xdot mercurial
 fi
 if [[ "$UNAME_STR" == "Linux" ]] && hash apt-get 2>/dev/null; then
-	sudo apt-get install -y pkg-config build-essential bison flex gawk tcl-dev libffi-dev git mercurial python python3 python3-dev libboost-all-dev qt5-default libftdi-dev
+	sudo apt-get install -y pkg-config build-essential clang bison flex gawk tcl-dev libffi-dev git mercurial python python3 python3-dev libboost-dev libboost-filesystem-dev libboost-thread-dev libboost-program-options-dev libboost-python-dev qt5-default libftdi-dev
   sudo apt-get install -y libreadline-dev clang graphviz xdot 
 fi
 
