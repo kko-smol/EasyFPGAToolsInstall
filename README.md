@@ -23,16 +23,17 @@ Open Source FPGA toolkit built around [IceStorm](http://www.clifford.at/icestorm
 
 ## Toolchain
 
-| Component                                            | Function      | License                                              |
-|------------------------------------------------------|---------------|------------------------------------------------------|
-| [Yosys](http://www.clifford.at/yosys/)               | Synthesis     | [ISC](https://opensource.org/licenses/ISC)           |
-| [Icarus Verilog](http://iverilog.icarus.com/)        | Simulation    | [GPL-2.0](https://opensource.org/licenses/GPL-2.0)   |
-| [Verilator](https://www.veripool.org/wiki/verilator) | Simulation    | [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0) |
-| [Arachne-pnr](https://github.com/cseed/arachne-pnr)  | Place & Route | [MIT](https://opensource.org/licenses/MIT)           |
-| [IceStorm](http://www.clifford.at/icestorm/)         | Bitstream     | [ISC](https://opensource.org/licenses/ISC)           |
-| [NextPNR](https://github.com/YosysHQ/nextpnr)        | Place & Route | [ISC](https://opensource.org/licenses/ISC)           |
-| [Prjtrellis](https://github.com/SymbiFlow/prjtrellis)| Bitstream     | [MIT](https://opensource.org/licenses/MIT)           |
-| [Apicula](https://github.com/pepijndevos/apicula)    | Bitstream     | [MIT](https://opensource.org/licenses/MIT)           |
+| Component                                            | Function       | License                                              |
+|------------------------------------------------------|----------------|------------------------------------------------------|
+| [Yosys](http://www.clifford.at/yosys/)               | Synthesis      | [ISC](https://opensource.org/licenses/ISC)           |
+| [Icarus Verilog](http://iverilog.icarus.com/)        | Simulation     | [GPL-2.0](https://opensource.org/licenses/GPL-2.0)   |
+| [Verilator](https://www.veripool.org/wiki/verilator) | Simulation     | [LGPL-3.0](https://opensource.org/licenses/LGPL-3.0) |
+| [Arachne-pnr](https://github.com/cseed/arachne-pnr)  | Place & Route  | [MIT](https://opensource.org/licenses/MIT)           |
+| [IceStorm](http://www.clifford.at/icestorm/)         | Bitstream      | [ISC](https://opensource.org/licenses/ISC)           |
+| [NextPNR](https://github.com/YosysHQ/nextpnr)        | Place & Route  | [ISC](https://opensource.org/licenses/ISC)           |
+| [Prjtrellis](https://github.com/SymbiFlow/prjtrellis)| Bitstream      | [MIT](https://opensource.org/licenses/MIT)           |
+| [Apicula](https://github.com/pepijndevos/apicula)    | Bitstream      | [MIT](https://opensource.org/licenses/MIT)           |
+| [OpenFPGALoader](https://github.com/trabucayre/openFPGALoader)    | Binary Loading | [AGPL-3.0](https://opensource.org/licenses/AGPL-3.0) |
 
 
 ## Supported FPGAs
@@ -43,6 +44,7 @@ Open Source FPGA toolkit built around [IceStorm](http://www.clifford.at/icestorm
 
 ## Issues
 Gowin support is ***experimental*** via Project Apicula 
+This WILL work on WSL but you will need to call the Iceprog as an exe due to no USB access (yet)
 
 ### OS X
 
