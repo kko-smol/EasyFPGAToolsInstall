@@ -44,7 +44,7 @@ $DIR/nextpnr_ecp5.sh
 echo "┌─────────┐"
 echo "│ apicula │"
 echo "└─────────┘"
-$DIR/yosys.sh
+$DIR/apicula.sh
 
 echo "┌───────┐"
 echo "│ yosys │"
