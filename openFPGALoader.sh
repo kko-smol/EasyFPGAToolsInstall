@@ -16,6 +16,8 @@ else
 fi
 
 cd $DIR/openFPGALoader
+mkdir build 
+cd build
 
 echo "Building openFPGALoader..."
 cmake ../
