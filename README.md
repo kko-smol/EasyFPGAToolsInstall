@@ -1,12 +1,8 @@
-# IceTools
+# OpenFPGATools
 
-Open Source FPGA toolkit built around [IceStorm](http://www.clifford.at/icestorm/) and [Yosys](http://www.clifford.at/yosys/) by [Clifford Wolf](http://www.clifford.at/).
+Open Source FPGA toolkit built around [IceStorm](http://www.clifford.at/icestorm/) and [Yosys](http://www.clifford.at/yosys/) by [Claire Wolf](http://www.clifford.at/). Version 2 now includes ECP5 support via [Prjtrellis](https://github.com/SymbiFlow/prjtrellis) and Gowin via [Apicula](https://github.com/pepijndevos/apicula).
 
-## Run with Docker
-
-```
-docker run dimdm/icetools icepack -h
-```
+This repo will only have support for synthesizable bitstreams 
 
 ## Install locally (brew || sudo apt-get)
 
@@ -24,21 +20,18 @@ docker run dimdm/icetools icepack -h
 | [Arachne-pnr](https://github.com/cseed/arachne-pnr)  | Place & Route | [MIT](https://opensource.org/licenses/MIT)           |
 | [IceStorm](http://www.clifford.at/icestorm/)         | Bitstream     | [ISC](https://opensource.org/licenses/ISC)           |
 | [NextPNR](https://github.com/YosysHQ/nextpnr)        | Place & Route | [ISC](https://opensource.org/licenses/ISC)           |
+| [Prjtrellis](https://github.com/SymbiFlow/prjtrellis)| Bitstream     | [MIT](https://opensource.org/licenses/MIT)           |
+| [Apicula](https://github.com/pepijndevos/apicula)    | Bitstream     | [MIT](https://opensource.org/licenses/MIT)           |
+
 
 ## Supported FPGAs
 
-iCE40 LP/HX 1K/4K/8K
-
-## Supported Devkits
-
-- [icoBoard](https://shop.trenz-electronic.de/en/TE0887-02M-icoBoard-Version-1.1-with-8-MBit-SRAM)
-- [iCEstick](http://www.latticesemi.com/icestick)
-- [iCE40-HX8K Breakout Board](http://www.latticesemi.com/Products/DevelopmentBoardsAndKits/iCE40HX8KBreakoutBoard.aspx)
-- [MyStorm Blackice](https://gitlab.com/Folknology/mystorm/tree/BlackIce)
+* Lattice iCE40 (all variants)
+* Lattice ECP5 (all vairants)
+* Gowin GW1N-1 / GW1NR-9
 
 ## Issues
-
-`iceprog` is not supported in docker and should be installed locally using `./icestorm.sh` which kind of defeats the purpose.
+Gowin support is ***experimental*** via Project Apicula 
 
 ### OS X
 
