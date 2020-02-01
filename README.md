@@ -1,13 +1,24 @@
 # OpenFPGATools
+> An easier way to quickly build, install, and update latest builds of the FOSS FPGA flows
 
 Open Source FPGA toolkit built around [IceStorm](http://www.clifford.at/icestorm/) and [Yosys](http://www.clifford.at/yosys/) by [Claire Wolf](http://www.clifford.at/). Version 2 now includes ECP5 support via [Prjtrellis](https://github.com/SymbiFlow/prjtrellis) and Gowin via [Apicula](https://github.com/pepijndevos/apicula).
 
-This repo will only have support for synthesizable bitstreams 
-
 ## Install locally (brew || sudo apt-get)
-
+* For Ice40 use:
 ```
 ./icetools.sh
+```
+* For ECP5 use: 
+```
+./ecp5tools.sh
+```
+* For Gowin use:
+```
+./gowintools.sh
+```
+* For all architectures use: 
+```
+./fpgatools.sh
 ```
 
 ## Toolchain
