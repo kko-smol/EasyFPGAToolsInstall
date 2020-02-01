@@ -61,6 +61,11 @@ echo "│ verilator │"
 echo "└───────────┘"
 $DIR/verilator.sh
 
+echo "┌───────────────────┐"
+echo "│  openFPGALoader   │"
+echo "└───────────────────┘"
+$DIR/openFPGALoader.sh
+
 echo "┌───────────┐"
 echo "│  GTKWave  │"
 echo "└───────────┘"
