@@ -17,8 +17,7 @@ else
 	git pull origin master || exit 1
 fi
 
-cd $DIR/prjtrellis
-cd $DIR/libtrellis
+cd $DIR/prjtrellis/libtrellis
 
 echo "Building prjtrellis..."
 cmake -DCMAKE_INSTALL_PREFIX=/usr .
