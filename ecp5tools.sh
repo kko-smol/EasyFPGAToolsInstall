@@ -20,7 +20,7 @@ echo "│ prjtrellis │"
 echo "└────────────┘"
 $DIR/prjtrellis.sh
 
-source $DIR/environment.sh
+source $DIR/prjtrellis/environment.sh
 
 echo "┌───────────┐"
 echo "│  nextpnr  │"
